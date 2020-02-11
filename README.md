@@ -7,10 +7,11 @@ To build a model that will predict if the income of any individual in the US is 
 ## Key files
 
 Link here : Presentation in Google Slides format
-Life_Expectancy_USA.pdf : Presentation in PDF format
+
+salary_census : Presentation in PDF format
 salary_census.ipynb : Jupyter notebook file with Python codes + commentaries
 salary_census.py : local Python functions source file for Jupyter notebook
-adult.dat : Raw data source file in CSV format
+adult.data : Raw data source file in CSV format
 
 #### Data Set Description: 
 This Census Income dataset was collected by Barry Becker in 1994andgiventothe public site http://archive.ics.uci.edu/ml/datasets/Census+Income. This data set will help you understand how the income of a person varies depending on various factors such as the education background, occupation, marital status, geography, age, number of working hours/week, etc.
