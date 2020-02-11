@@ -6,12 +6,12 @@ To build a model that will predict if the income of any individual in the US is 
 
 ## Key files
 
-Link here : Presentation in Google Slides format
+1.Link here : Presentation in Google Slides format
 
-salary_census : Presentation in PDF format
-salary_census.ipynb : Jupyter notebook file with Python codes + commentaries
-salary_census.py : local Python functions source file for Jupyter notebook
-adult.data : Raw data source file in CSV format
+2.salary_census : Presentation in PDF format
+3.salary_census.ipynb : Jupyter notebook file with Python codes + commentaries
+4.salary_census.py : local Python functions source file for Jupyter notebook
+5.adult.data : Raw data source file in CSV format
 
 #### Data Set Description: 
 This Census Income dataset was collected by Barry Becker in 1994andgiventothe public site http://archive.ics.uci.edu/ml/datasets/Census+Income. This data set will help you understand how the income of a person varies depending on various factors such as the education background, occupation, marital status, geography, age, number of working hours/week, etc.
@@ -48,4 +48,30 @@ capital-gain: continuous.
 capital-loss: continuous.
 
 hours-per-week: continuous.Individual's working hour per week
+
+## Methodology
+1. **Data Import**
+2. **Data Cleansing**  
+  2.1 Clean-up columns and data  
+  2.2 Remove outliers  
+3. **Data Exploration**  
+  3.1 Overview of all data via plots  
+  3.2 Overview of target  
+  3.3 Split and transform training and test data
+4. **Feature Selection (Part 1): Evaluate predictors**  
+  4.1 Baseline model : logistic regression model with all predictors  
+  4.2 Baseline model : logistic regression with SMOTE 
+  4.3 Model1: Decesion tree model   
+  4.4 Model2: KNN model 
+  4.5 Model3: SVM model
+  4.6 Model4: Random Forest
+  4.7 Model5: ADABoost
+  4.8 Model6: XGBoost
+ 
+5. **Model Selection (Part 2) s**  
+  5.1 Determine Best model on basis of AUC 
+   
+6. **Final Model**  
+  6.1 Prepare final training and test data  
+  6.2 Final model : run with training and test data
 
